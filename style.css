@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Ysabeau+Office:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    box-sizing: border-box ;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Ysabeau Office', sans-serif;
+font-weight: bold;
+margin: 0;
+}
+span, a, label {
+    display: inline-block;
+}
+.katta {
+    background-color: rgb(57, 175, 57);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.ler {
+    text-decoration: none;
+    font-size: 27px;
+    color: white;
+    position: relative;
+}
+.kl {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    transform: translateY(-10px);
+    opacity: 0;
+    top: 100%;
+    transition: 0.4s all linear;
+}
+.ler:hover .kl{
+    transform: translateY(0);
+    opacity: 1;
+}
+.katt {
+    color: cadetblue;
+}
+.al {
+    text-decoration: none;
+    font-size: 25px;
+    color: cadetblue;
+    position: relative;
+}
+.al:hover .jk {
+    bottom: 100%;
+}
+.al:hover .df {
+    transform: scaleX(1.2);
+}
+.df {
+    color: cadetblue;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    background-color: cadetblue;
+    transition: 0.2s all linear;
+}
+.katt {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kop {
+    background-color: rgb(230, 230, 230);
+}
